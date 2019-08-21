@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("http://67.media.tumblr.com/60f9ee9d91e08bdf8568ce7f8bf8dea6/tumblr_nam9wagHR01ruiz3lo1_1280.jpg");
+  background-size: 100% 100%;
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  /* float: left; */
+  width: 100%;
+  background: #f1f1f1;
+  /* position: fixed; */
+  top: 50%;
+  /* left: 50%; */
+  /* bring your own prefixes */
+  /* transform: translate(-50%, -50%); */
+}
+
+/* Style the submit button */
+form.example button {
+  /* float: right; */
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  /* position: fixed; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* bring your own prefixes */
+  /* transform: translate(-50%, -50%); */
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  left: 0%;
+  position: fixed;
+}
+
+.searchbar {
+  flex: 0 1 auto;
+  width: 500px;
+  margin-right: 20px;
+}
+
+h1{
+   text-align: center;
+   font: italic 1.2em "Fira Sans", serif;;
+    font-size: 70;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+#button {
+  background-color: white;
+  flex: 0 1 auto;
+  width: 100px;
+}

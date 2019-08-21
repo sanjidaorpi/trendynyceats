@@ -1,0 +1,67 @@
+body{
+  font-family: Arial;
+}
+
+.result {
+  background-color: pink;
+  margin: 30px;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+
+  display: flex;
+}
+
+.result:hover{
+  opacity: 1.0;
+  border-radius: 10px;
+  border: 2px dotted lightblue;
+}
+
+h1{
+  font: 400 100px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba (0,0,0,0.1);
+  padding: 10px;
+
+}
+h2{
+  color: #D082C3;
+  font-size: 300px;
+  font-family: "Impact";
+  text-align: center;
+}
+
+.thumbnail {
+  padding: 10px;
+  width: 300px;
+  flex: 0 1 auto;
+}
+
+.details {
+  padding:40px;
+  flex: 0 1 auto;
+}
+
+.banner1 {
+  background-image: url("https://eudaimoniahomes.com/wp-content/uploads/2019/02/what-is-pink-cloud.jpg");
+ height: 250px;
+ width:auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+ h3 {
+   text-align: center;
+   font: italic 1.2em "Fira Sans", serif;;
+    font-size: 500px;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+a:hover {
+  text-decoration: none;
+}
+
+h2:hover{
+  color: #fff;
+}
