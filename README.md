@@ -1,1 +1,1 @@
-
+This website shows the trending restaurants in New York City. It opens with a drescription of 10 trending restaurants, but more notably there is a search page where you can enter a zip code to find the top restaurants in that area. This searching algorithm uses the Yelp API to search for restaurants with best ratings, in the future it will recognize restaurants getting the most positive reviews in short spans, to really exhinit "trendiness" as well as implementing Instagram's API for trending hashtags. 
